@@ -1,11 +1,11 @@
-= Ehab's Dot Files 
+= Khaled's Dot Files 
 ***Forked from Pitr's Dot Files***
 
 ***IMPORTANT*** change name and email in `.gitconfig` after installation
 
 == Installation
 
-  git clone git://github.com/xemacobra/config_files ~/.config_files
+  git clone git://github.com/kshoukry/config_files ~/.config_files
   cd ~/.config_files
   rake install
 

@@ -33,7 +33,7 @@
   rc = rebase --continue
   ra = rebase --abort
   ri = rebase -i
-  me = log --date=local --pretty=short --author=ehab@hamtaw.com --stat
+  me = log --date=local --pretty=short --author=khaleds@secretlocation.com --stat
   qpl = log --pretty=\"%Cblue%h%Creset %Cgreen[%cr]%Creset %s\" origin/production..origin/master
   g = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr by %C(yellow)%an%Creset)%Creset' --abbrev-commit --date=relative
   ci = commit
@@ -47,8 +47,8 @@
   su = submodule update --init --recursive --quiet
   who = blame -CCCw
 [user]
-	name = Ehab Abdou
-	email = ehab@hamtaw.com
+	name = Khaled Shoukry
+	email = khaleds@secretlocation.com
   useconfigonly = true
 [branch]
   autosetuprebase = always
